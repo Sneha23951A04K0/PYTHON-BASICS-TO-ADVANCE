@@ -1,0 +1,18 @@
+#To find square root
+
+#method-1: using exponentation
+num=int(input('enter a number: '))
+sqrt=num**(1/2)
+print('The square root of given number is:',sqrt)
+
+#method-2: using Math module
+import math
+num=int(input('enter a number: '))
+sqrt1=math.sqrt(num)
+print('The square root of given number is: ',sqrt1)
+
+#method-3: using pow function
+num=int(input('enter a number: '))
+sqrt2=pow(num,0.5)
+print('The square root of given number is: ',sqrt2)
+
