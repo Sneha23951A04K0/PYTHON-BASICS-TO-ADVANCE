@@ -1,0 +1,21 @@
+#Area of Triangle
+
+#method-1 : using base and height
+b = float(input("enter the base of triangle: "))
+h = float(input("enter the heght of triangle: "))
+area = (1/2)*b*h
+print("area of given triangle is: ",area)
+
+#method-2: area of Scalen triangle
+a = int(input("enter the first side of triangle: "))
+b = int(input("enter the second side of triangle: "))
+c = int(input("enter the third side of triangle: "))
+if (a==b) or (b==c) or (c==a):
+  print("invalid input")
+else:
+  s = (a*b*c)/2
+  temp = s*(s-a)*(s-b)*(s-c)
+  area = (temp)**(1/2)
+print("area of given scalen triangle is: ",area)
+
+
