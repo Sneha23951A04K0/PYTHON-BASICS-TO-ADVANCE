@@ -1,0 +1,4 @@
+# 1km = 0.621371 miles
+km = int(input("enter the value in km: "))
+result = (0.621371)*km
+print(km,"in miles is: ",result)
