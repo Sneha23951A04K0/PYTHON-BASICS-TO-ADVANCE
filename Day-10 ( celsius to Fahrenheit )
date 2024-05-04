@@ -1,0 +1,7 @@
+# 0 degree celsius = 32 degree fahrenheit
+# fahrenheit = [celsius * (9/5)] + 32
+# (9/5)=1.8
+
+celsius = int(input("enter a temp value in degree celsius: "))
+fahrenheit = [celsius*(9/5)]+32
+print(fahrenheit)
